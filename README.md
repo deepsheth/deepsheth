@@ -1,5 +1,3 @@
-# Arpit Sheth
+# Deep Sheth
 
 Personal website & portfolio
-
-[Colophon](https://arpitsheth.com/colophon)
