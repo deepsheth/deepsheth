@@ -5,7 +5,7 @@ const theme = {
   // Meaning, it holds the property that (x * 1.148698355**5 == 2 * x)
   typeScale: 1.148698355,
   fonts: {
-    heading: `'Space Mono', 'Consolas', 'Roboto Mono', 'SFMono-Regular', 'Liberation Mono', 'Courier New', monospace`,
+    heading: `'neusa-next-std', 'Bahnschrift', 'Roboto', 'Segoe UI', 'San Francisco', 'Helvetica Neue', sans-serif`,
     body: `'urw-din', 'Bahnschrift', 'Roboto', 'Segoe UI', 'San Francisco', 'Helvetica Neue', sans-serif`,
   },
 

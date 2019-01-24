@@ -1,9 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: 'Arpit Sheth',
-    description:
-      'Interdisciplinary engineer with creator instincts and a knack for starting things.',
-    author: '@shetharp',
+    title: 'Deep Sheth',
+    description: 'Software Engineer in the fintech industry building blockchain solutions.',
+    author: 'Deep Sheth',
   },
   plugins: [
     'gatsby-plugin-react-helmet',
@@ -15,11 +14,11 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-web-font-loader',
       options: {
-        google: {
-          families: ['Space Mono:400,400i,700,700i'],
-        },
+        // google: {
+        //   families: ['Space Mono:400,400i,700,700i'],
+        // },
         typekit: {
-          id: 'iut6dno',
+          id: 'gul0ccw',
         },
       },
     },
@@ -40,8 +39,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: 'Arpit Sheth',
-        short_name: 'Arpit Sheth',
+        name: 'Deep Sheth',
+        short_name: 'Deep Sheth',
         start_url: '/',
         background_color: '#ffffff',
         theme_color: '#ffffff',
@@ -52,7 +51,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
-        trackingId: 'UA-34029885-1',
+        trackingId: 'UA-56753882-3',
       },
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality

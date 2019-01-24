@@ -162,7 +162,7 @@ function Layout({ children, hasTransparentHeader, hasStickyHeader, hasContainer,
       {hasFooter && (
         <Footer>
           <Link to="/colophon">
-            <FooterIcon src={footerIcon} alt="&copy; Arpit Sheth" />
+            <FooterIcon src={footerIcon} alt="&copy; Deep Sheth" />
           </Link>
           <span>
             Thanks for visiting.&nbsp;

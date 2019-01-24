@@ -294,16 +294,16 @@ function HeaderLogo({ isWhite }) {
     return (
       <Link to="/">
         <Logo>
-          <img src={logoWhite} alt="Arpit Sheth" />
+          Deep Sheth
+          {/* <img src={logoWhite} alt="Deep Sheth" /> */}
         </Logo>
       </Link>
     );
   }
   return (
     <Link to="/">
-      <Logo>
-        <img src={logoBlack} alt="Arpit Sheth" />
-      </Logo>
+      Deep Sheth
+      <Logo>{/* <img src={logoBlack} alt="Deep Sheth" /> */}</Logo>
     </Link>
   );
 }
@@ -379,18 +379,18 @@ function HeaderNav(props) {
   return (
     <Nav>
       <Menu>
-        <MenuItem>
+        {/* <MenuItem>
           <Link to="/contact">Contact</Link>
         </MenuItem>
         <MenuItem>
           <Link to="/about">About</Link>
-        </MenuItem>
+        </MenuItem> */}
         <MenuItem>
-          <a href="https://www.linkedin.com/in/shetharp/">LinkedIn</a>
+          <a href="https://www.linkedin.com/in/deepsheth/">LinkedIn</a>
         </MenuItem>
-        <MenuItem>
+        {/* <MenuItem>
           <a href="https://www.instagram.com/shetharp/">Photography</a>
-        </MenuItem>
+        </MenuItem> */}
       </Menu>
     </Nav>
   );
@@ -417,18 +417,18 @@ function ExpandedNav({ onClick }) {
   return (
     <ExpandedNavStyles>
       <ExpandedMenu onClick={toggleExpandedHeader}>
-        <ExpandedMenuItem>
+        {/* <ExpandedMenuItem>
           <Link to="/about">About</Link>
         </ExpandedMenuItem>
         <ExpandedMenuItem>
           <Link to="/contact">Contact</Link>
-        </ExpandedMenuItem>
+        </ExpandedMenuItem> */}
         <ExpandedMenuItem>
-          <a href="https://www.linkedin.com/in/shetharp/">LinkedIn</a>
+          <a href="https://www.linkedin.com/in/deepsheth/">LinkedIn</a>
         </ExpandedMenuItem>
-        <ExpandedMenuItem>
+        {/* <ExpandedMenuItem>
           <a href="https://www.instagram.com/shetharp/">Photography</a>
-        </ExpandedMenuItem>
+        </ExpandedMenuItem> */}
       </ExpandedMenu>
     </ExpandedNavStyles>
   );
