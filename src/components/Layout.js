@@ -4,7 +4,7 @@ import { Link } from 'gatsby';
 import styled, { createGlobalStyle } from 'styled-components';
 import theme, { mediaq } from '../utils/theme.js';
 import Header from '../components/Header';
-import footerIcon from '../images/as-icon.png';
+import footerIcon from '../images/ds-icon.png';
 import footerBgXS from '../images/footer-bg@xs.png';
 import footerBgMD from '../images/footer-bg@md.png';
 import footerBgXL from '../images/footer-bg@xl.png';
