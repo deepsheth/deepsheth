@@ -3,8 +3,8 @@ import PropTypes from 'prop-types';
 import styled, { keyframes } from 'styled-components';
 import { Link } from 'gatsby';
 import theme, { mediaq } from '../utils/theme';
-import logoBlack from '../images/as-logo-black.svg';
-import logoWhite from '../images/as-logo-white.svg';
+import logoBlack from '../images/ds-logo-black.svg';
+import logoWhite from '../images/ds-logo-white.svg';
 import iMenuDark from '../images/i-menu-dark.svg';
 import iMenuLite from '../images/i-menu-lite.svg';
 import iCloseDark from '../images/i-close-dark.svg';
@@ -294,16 +294,16 @@ function HeaderLogo({ isWhite }) {
     return (
       <Link to="/">
         <Logo>
-          Deep Sheth
-          {/* <img src={logoWhite} alt="Deep Sheth" /> */}
+          <img src={logoWhite} alt="Deep Sheth" />
         </Logo>
       </Link>
     );
   }
   return (
     <Link to="/">
-      Deep Sheth
-      <Logo>{/* <img src={logoBlack} alt="Deep Sheth" /> */}</Logo>
+      <Logo>
+        <img src={logoBlack} alt="Deep Sheth" />
+      </Logo>
     </Link>
   );
 }
