@@ -124,11 +124,11 @@ function IndexPage({ data }) {
       </>
     ),
     fluid: data.imgFidelity.childImageSharp.fluid,
-    overlay: '#1C130F',
-    highlight: introHighlight,
-    isColorful: false,
+    overlay: '#00201B',
+    highlight: '#76a923',
+    isColorful: true,
     isExpanded: false,
-    position: '70% 20%',
+    position: '10% 50%',
     button: { text: 'Let’s Chat', link: '#crater', isExternal: false },
     isBorderless: false,
   });
@@ -154,9 +154,9 @@ function IndexPage({ data }) {
       </>
     ),
     fluid: data.imgLehigh.childImageSharp.fluid,
-    overlay: '#1C130F',
-    highlight: introHighlight,
-    isColorful: false,
+    overlay: '#21150b',
+    highlight: '#ffd94a',
+    isColorful: true,
     isExpanded: false,
     position: '70% 20%',
     // button: { text: 'Scroll', link: '#crater', isExternal: false },
@@ -180,11 +180,11 @@ function IndexPage({ data }) {
       </>
     ),
     fluid: data.imgDeloitte.childImageSharp.fluid,
-    overlay: '#1C130F',
-    highlight: introHighlight,
-    isColorful: false,
+    overlay: '#392000',
+    highlight: '#86bc25',
+    isColorful: true,
     isExpanded: false,
-    position: '70% 20%',
+    position: '50% 50%',
     // button: { text: 'Scroll', link: '#crater', isExternal: false },
     isBorderless: false,
   });
@@ -198,17 +198,19 @@ function IndexPage({ data }) {
     descr: (
       <>
         <p>
-          I was inspired by a mobile game, Dots and recreated a cross-platform version using HTML5
-          canvas. My top score is 290, shouldn't be too hard to top it. 😛
+          I was inspired by the <a href="https://www.dots.co/">Dots</a> mobile game and recreated a
+          cross-platform version using{' '}
+          <a href="https://github.com/deepsheth/Connect-the-Dots">HTML5 canvas.</a> My top score is
+          290 &mdash; shouldn't be too hard to top. 😛
         </p>
       </>
     ),
-    fluid: data.imgDeloitte.childImageSharp.fluid,
-    overlay: '#1C130F',
-    highlight: introHighlight,
+    fluid: data.imgDots.childImageSharp.fluid,
+    overlay: '#D7503C',
+    highlight: '#e03f3a',
     isColorful: false,
     isExpanded: false,
-    position: '70% 20%',
+    position: '50% 50%',
     button: {
       text: 'Play Game',
       link: 'https://deepsheth.github.io/Connect-the-Dots/',
@@ -267,13 +269,16 @@ export const pageQuery = graphql`
     imgIntro: file(relativePath: { eq: "slides/intro-deep-sheth.jpg" }) {
       ...slideImage
     }
-    imgFidelity: file(relativePath: { eq: "slides/intro-deep-sheth.jpg" }) {
+    imgFidelity: file(relativePath: { eq: "slides/fidelity.jpg" }) {
       ...slideImage
     }
-    imgLehigh: file(relativePath: { eq: "slides/intro-deep-sheth.jpg" }) {
+    imgLehigh: file(relativePath: { eq: "slides/lehigh.jpg" }) {
       ...slideImage
     }
-    imgDeloitte: file(relativePath: { eq: "slides/intro-deep-sheth.jpg" }) {
+    imgDeloitte: file(relativePath: { eq: "slides/deloitte.jpg" }) {
+      ...slideImage
+    }
+    imgDots: file(relativePath: { eq: "slides/dots.jpg" }) {
       ...slideImage
     }
   }
