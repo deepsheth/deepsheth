@@ -379,18 +379,18 @@ function HeaderNav(props) {
   return (
     <Nav>
       <Menu>
-        {/* <MenuItem>
+        <MenuItem>
           <Link to="/contact">Contact</Link>
         </MenuItem>
         <MenuItem>
           <Link to="/about">About</Link>
-        </MenuItem> */}
+        </MenuItem>
         <MenuItem>
           <a href="https://www.linkedin.com/in/deepsheth/">LinkedIn</a>
         </MenuItem>
-        {/* <MenuItem>
-          <a href="https://www.instagram.com/shetharp/">Photography</a>
-        </MenuItem> */}
+        <MenuItem>
+          <a href="https://www.github.com/deepsheth/">GitHub</a>
+        </MenuItem>
       </Menu>
     </Nav>
   );
@@ -417,18 +417,18 @@ function ExpandedNav({ onClick }) {
   return (
     <ExpandedNavStyles>
       <ExpandedMenu onClick={toggleExpandedHeader}>
-        {/* <ExpandedMenuItem>
+        <ExpandedMenuItem>
           <Link to="/about">About</Link>
         </ExpandedMenuItem>
         <ExpandedMenuItem>
           <Link to="/contact">Contact</Link>
-        </ExpandedMenuItem> */}
+        </ExpandedMenuItem>
         <ExpandedMenuItem>
           <a href="https://www.linkedin.com/in/deepsheth/">LinkedIn</a>
         </ExpandedMenuItem>
-        {/* <ExpandedMenuItem>
-          <a href="https://www.instagram.com/shetharp/">Photography</a>
-        </ExpandedMenuItem> */}
+        <ExpandedMenuItem>
+          <a href="https://www.github.com/deepsheth/">GitHub</a>
+        </ExpandedMenuItem>
       </ExpandedMenu>
     </ExpandedNavStyles>
   );

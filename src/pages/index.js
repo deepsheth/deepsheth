@@ -129,7 +129,7 @@ function IndexPage({ data }) {
     isColorful: true,
     isExpanded: false,
     position: '10% 50%',
-    button: { text: 'Let’s Chat', link: '#crater', isExternal: false },
+    button: { text: 'Let’s Chat', link: '/contact', isExternal: false },
     isBorderless: false,
   });
 

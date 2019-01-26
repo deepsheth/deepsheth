@@ -3,18 +3,15 @@ title: 'Contact  ☕'
 date: '01/01/2019'
 ---
 
-I love learning from people and connecting with stories. It's the best way to get a diverse perspective on things.
-Get in touch with me at **[shetharp@gmail.com](mailto:shetharp@gmail.com).** If you're
-in the area, coffee is an option too!
+I like to meet new people all the time. If you saw something here that intriugued you, I would love to geek out with you.
+Get in touch with me at **[djsdeep@gmail.com](mailto:djsdeep@gmail.com).**
 
 ### Say Hello
 
 **Based in:** New York City, NY 🗽
 
-**Email:** [shetharp@gmail.com](mailto:shetharp@gmail.com)
+**Email:** [djsdeep@gmail.com](mailto:djsdeep@gmail.com)
 
-**LinkedIn:** [/in/shetharp](https://www.linkedin.com/in/shetharp/)
+**LinkedIn:** [/in/deepsheth](https://www.linkedin.com/in/deepsheth/)
 
-**Instagram:** [@shetharp](https://www.instagram.com/shetharp/)
-
-**Twitter:** [@shetharp](https://twitter.com/shetharp)
+**GitHub:** [deepsheth](https://www.github.com/deepsheth/)

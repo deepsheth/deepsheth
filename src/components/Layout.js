@@ -161,7 +161,7 @@ function Layout({ children, hasTransparentHeader, hasStickyHeader, hasContainer,
       {layoutContent}
       {hasFooter && (
         <Footer>
-          <Link to="/colophon">
+          <Link to="/about">
             <FooterIcon src={footerIcon} alt="&copy; Deep Sheth" />
           </Link>
           <span>
