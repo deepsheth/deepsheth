@@ -11,4 +11,4 @@ Previously, I did Cyber Risk Advisory at Deloitte.
 <br />
 <br />
 
-_Website design by my brother, <a href="www.arpitsheth.com">Arpit Sheth</a>._
+_Website design by my brother, <a href="http://www.arpitsheth.com">Arpit Sheth</a>._

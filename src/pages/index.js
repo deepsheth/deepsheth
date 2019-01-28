@@ -169,7 +169,7 @@ function IndexPage({ data }) {
   slides.push({
     id: 'deloitte',
     title:
-      'At Deloitte, I advised clients to detect cyber risk vulnerabilities and upgrade them to new security standards.',
+      'At Deloitte, I advised clients by detecting cyber risks and upgraded them to new security standards.',
     descr: (
       <>
         <p>
@@ -201,7 +201,7 @@ function IndexPage({ data }) {
           I was inspired by the <a href="https://www.dots.co/">Dots</a> mobile game and recreated a
           cross-platform version using{' '}
           <a href="https://github.com/deepsheth/Connect-the-Dots">HTML5 canvas.</a> My top score is
-          290 &mdash; shouldn't be too hard to top. 😛
+          573 &mdash; shouldn't be too hard to top. 😛
         </p>
       </>
     ),
