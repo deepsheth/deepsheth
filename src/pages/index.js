@@ -91,7 +91,7 @@ function IndexPage({ data }) {
         <p>
           Currently, I'm a software engineer at Fidelity Investments. I recently graduated from{' '}
           <Link to="#lehigh">Lehigh University's</Link> Computer Science and Business program.
-          Previously, I did Cyber Risk Adivosry at <Link to="#deloitte">Deloitte</Link>.
+          Previously, I did Cyber Risk Advisory at <Link to="#deloitte">Deloitte</Link>.
         </p>
       </>
     ),
