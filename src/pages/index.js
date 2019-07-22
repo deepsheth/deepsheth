@@ -85,13 +85,14 @@ function IndexPage({ data }) {
   -------------------------------------------------- */
   slides.push({
     id: 'intro',
-    title: 'I’m a software engineer building blockchain innovations for the fintech industry.',
+    title: 'I’m a full-stack engineer developing greenfield innovations in the fintech industry.',
     descr: (
       <>
         <p>
-          Currently, I'm a software engineer at Fidelity Investments. I recently graduated from{' '}
-          <Link to="#lehigh">Lehigh University's</Link> Computer Science and Business program.
-          Previously, I did Cyber Risk Advisory at <Link to="#deloitte">Deloitte</Link>.
+          Currently, I work on the innovation team at Fidelity Investments as a Software Engineer. I
+          recently graduated from <Link to="#lehigh">Lehigh University's</Link> Computer Science and
+          Business program. Previously, I did Cyber Risk Advisory at{' '}
+          <Link to="#deloitte">Deloitte</Link>.
         </p>
       </>
     ),
@@ -110,16 +111,16 @@ function IndexPage({ data }) {
   -------------------------------------------------- */
   slides.push({
     id: 'fidelity',
-    title: 'I develop and explore blockchain applications for Fidelity Investments.',
+    title: 'I develop firm-wide best practices for our brokerage technologies.',
     descr: (
       <>
         <p>
-          I work at the Operations &amp; Services Center of Excellence where I develop firm-wide
-          best practices for our brokerage technologies. As a software engineer, I use the Ethereum
-          blockchain to develop smart contracts in Solidity.
+          As a software engineer on the Center of Excellence team, I develop proof of concepts to
+          evaluate new tech stacks for legacy and greenfield applications. I've worked with
+          Ethereum, event-streaming, and Angular web apps.
         </p>
         <p>
-          <em>If you're passionate about the future of decentralized systems, we should talk!</em>
+          <em>If you're passionate about new technologies, we should talk!</em>
         </p>
       </>
     ),
@@ -186,6 +187,40 @@ function IndexPage({ data }) {
     isExpanded: false,
     position: '50% 50%',
     // button: { text: 'Scroll', link: '#crater', isExternal: false },
+    isBorderless: false,
+  });
+
+  /* --------------------------------------------------
+   *  Slide Data / #blackjack
+  -------------------------------------------------- */
+  slides.push({
+    id: 'blackjack',
+    title: 'After vacationing in Vegas, I came home and built a game of blackjack.',
+    descr: (
+      <>
+        <p>
+          I built this app as a weekend project using Angular and the{' '}
+          <a href="https://deckofcardsapi.com/">Deck of Cards API</a>. There're plenty of more
+          features that{' '}
+          <a href="https://github.com/deepsheth/blackjack#potential-new-features--dev-work">
+            can be added.
+          </a>{' '}
+          For now, try to test your luck. Go ahead and{' '}
+          <a href="https://deepsheth.github.io/blackjack/">play the game</a>!
+        </p>
+      </>
+    ),
+    fluid: data.imgBlackjack.childImageSharp.fluid,
+    overlay: '#000',
+    highlight: '#e03f3a',
+    isColorful: false,
+    isExpanded: true,
+    position: '50% 50%',
+    button: {
+      text: 'Play Game',
+      link: 'https://deepsheth.github.io/blackjack/',
+      isExternal: true,
+    },
     isBorderless: false,
   });
 
@@ -279,6 +314,9 @@ export const pageQuery = graphql`
       ...slideImage
     }
     imgDots: file(relativePath: { eq: "slides/dots.jpg" }) {
+      ...slideImage
+    }
+    imgBlackjack: file(relativePath: { eq: "slides/blackjack.png" }) {
       ...slideImage
     }
   }

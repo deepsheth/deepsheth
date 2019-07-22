@@ -38,7 +38,7 @@ function Page({ data }) {
     <Layout>
       <SEO
         title={pageData.frontmatter.title}
-        keywords={['arpit', 'sheth', 'shetharp', 'cornell', 'tech']}
+        keywords={['deep', 'sheth', 'deepsheth', 'djsdeep', 'lehigh', 'tech']}
       />
       <Article>
         <Title>{pageData.frontmatter.title}</Title>
